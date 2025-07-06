@@ -1,4 +1,4 @@
-package com.github.AmitSureshChandra;
+package com.github.AmitSureshChandra.servlet;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.AmitSureshChandra.annotation.Delete;
