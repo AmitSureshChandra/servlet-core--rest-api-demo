@@ -1,4 +1,4 @@
-package org.example;
+package com.github.AmitSureshChandra;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javax.servlet.ServletException;

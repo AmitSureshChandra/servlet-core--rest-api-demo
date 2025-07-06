@@ -1,8 +1,8 @@
-package org.example.controller;
+package com.github.AmitSureshChandra.controller;
 
-import org.example.annotation.*;
-import org.example.model.User;
-import org.example.service.UserService;
+import com.github.AmitSureshChandra.annotation.*;
+import com.github.AmitSureshChandra.model.User;
+import com.github.AmitSureshChandra.service.UserService;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

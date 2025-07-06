@@ -3,7 +3,7 @@ plugins {
     id("war")
 }
 
-group = "org.example"
+group = "com.github.AmitSureshChandra"
 version = "1.0"
 
 repositories {

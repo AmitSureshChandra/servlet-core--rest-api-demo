@@ -1,4 +1,4 @@
-package org.example;
+package com.github.AmitSureshChandra;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import javax.servlet.ServletException;
@@ -22,7 +22,7 @@ public class ApiServlet extends HttpServlet {
         Map<String, Object> response = new HashMap<>();
         response.put("message", "API is running");
         response.put("endpoints", new String[]{"/api/users"});
-        
+
         objectMapper.writeValue(resp.getWriter(), response);
     }
 }

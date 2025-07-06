@@ -1,4 +1,4 @@
-package org.example;
+package com.github.AmitSureshChandra;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

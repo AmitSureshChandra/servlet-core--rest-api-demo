@@ -1,6 +1,6 @@
-package org.example.service;
+package com.github.AmitSureshChandra.service;
 
-import org.example.model.User;
+import com.github.AmitSureshChandra.model.User;
 import java.util.*;
 
 public class UserService {

@@ -1,4 +1,4 @@
-package org.example.model;
+package com.github.AmitSureshChandra.model;
 
 public class User {
     private Long id;

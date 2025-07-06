@@ -1,10 +1,10 @@
-package org.example;
+package com.github.AmitSureshChandra;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.annotation.Delete;
-import org.example.annotation.Get;
-import org.example.annotation.Post;
-import org.example.annotation.Put;
+import com.github.AmitSureshChandra.annotation.Delete;
+import com.github.AmitSureshChandra.annotation.Get;
+import com.github.AmitSureshChandra.annotation.Post;
+import com.github.AmitSureshChandra.annotation.Put;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -29,7 +29,7 @@ public class DispatcherServlet extends HttpServlet {
     public void init() throws ServletException {
         logger.info("Initializing DispatcherServlet...");
         try {
-            Object userController = Class.forName("org.example.controller.UserRestController").newInstance();
+            Object userController = Class.forName("com.github.AmitSureshChandra.controller.UserRestController").newInstance();
             controllers.put("/users", userController);
             logger.info("Successfully initialized UserRestController");
             logger.info("Available controllers: " + controllers.keySet());
